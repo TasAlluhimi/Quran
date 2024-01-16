@@ -7,7 +7,7 @@ import bsm from '../assets/bsm-allah.svg'
 function Surah() {
 
   const { id } = useParams();
-  const [data, setData] = React.useState([])
+  const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
     getData();
@@ -37,15 +37,19 @@ function Surah() {
         hi
       </div>
 
-      <div className="border w-[80%] text-center text-white font-bold">
+      <div className="border w-[80%] text-center text-white">
         
-        <div className="h-20 lg:w-96 md:w-72 max-md:w-72 w-60 bg-center lg:bg-cover 
-        bg-contain bg-no-repeat flex justify-center items-center" 
-        style={{backgroundImage: `url(${bsm})`}}></div>
+        <div className="flex justify-center items-center mt-5">
+            <div className="h-20 lg:w-96 md:w-72 max-md:w-72 w-60 bg-center lg:bg-cover 
+            bg-contain bg-no-repeat flex justify-center items-center" 
+            style={{backgroundImage: `url(${bsm})`}}></div>
+        </div>
 
           {data.map(item=>(
             <>
-              <div>{item.text_indopak} -{item.verse_key.substr(2)}- </div>
+              <div className="w-full flex justify-center items-center" style={{}}>
+                  <div className="w-[60vw]">{item.text_indopak} ({item.verse_key.substr(2)})</div>
+              </div>
             </>
           ))}
       </div>

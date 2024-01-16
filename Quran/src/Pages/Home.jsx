@@ -46,7 +46,8 @@ export default function Home() {
     <div className="absolute top-80 flex flex-col justify-center 
       items-center text-white w-full">
       
-      <div className="h-20 lg:w-96 md:w-72 max-md:w-72 w-60 bg-center lg:bg-cover bg-contain bg-no-repeat" style={{backgroundImage: `url(${bsm})`}}></div>
+      <div className="h-20 lg:w-96 md:w-72 max-md:w-72 w-60 bg-center lg:bg-cover bg-contain bg-no-repeat" 
+      style={{backgroundImage: `url(${bsm})`}}></div>
       
     <input 
       className="lg:w-[30%] lg:mt-9 w-[40%] max-sm:w-72 sm:w-72 rounded-md
