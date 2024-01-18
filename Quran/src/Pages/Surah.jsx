@@ -92,7 +92,7 @@ function Surah() {
               {Array.from({ length: endPage - startPage + 1 }, (_, index) => (
                 <img
                   key={index}
-                  className="white-svg sm:w-full max-sm:w-full w-[60%] lg:w-[60%] md:w-[60%]
+                  className="white-svg sm:w-full max-sm:w-full w-[60%] lg:w-[40%] md:w-[60%]
                   max-md:w-[60%]"
                   // style={{ color: 'white' }}
                   src={`https://www.mp3quran.net/api/quran_pages_svg/${formatSVGId(startPage + index)}.svg`}
