@@ -71,7 +71,7 @@ function Surah() {
         hover:text-black transition-colors duration-300 
         transform mx-1.5 sm:mx-6"> تشغيل بصوت صالح بدير </div>
 
-        <div 
+        <div
         onClick={()=>( audio(22) )}
         className="
         hover:text-black transition-colors duration-300 transform  
