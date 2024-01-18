@@ -16,3 +16,27 @@ body{
 .bor{
     border: 1px solid rgba(97, 93, 93, 0.573);
 }
+
+.scroll-watcher{
+    height: 10px;
+    position: fixed;
+    /* top: 1; */
+    bottom: 0;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    scale: 0 1;
+    transform-origin: right;
+    border-radius: 2px;
+
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher{
+    to { scale:1 1; }
+}
+
+.white-svg {
+    filter: invert(100%);
+  }
