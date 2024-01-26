@@ -3,7 +3,6 @@ import Nav from "../Components/Nav";
 import Logo from '../assets/main.jpg'
 import axios from 'axios'
 import bsm from '../assets/bsm-allah.svg'
-import {Input} from "@nextui-org/react";
 import { Diamond } from "../assets/diamond";
 import { useNavigate } from "react-router-dom";
 import Footer from "../Components/Footer";
