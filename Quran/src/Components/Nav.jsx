@@ -70,8 +70,8 @@ function Nav() {
             </Link>
             <Link className="my-2 text-gray-200 transition-colors duration-300 transform 
             hover:text-blue-500 md:mx-4 md:my-0" 
-              to="/">
-              من نحن
+              to="/Athkar">
+              الاذكار
             </Link>
             <Link className="my-2 text-gray-200 transition-colors duration-300 transform 
             hover:text-blue-500 md:mx-4 md:my-0" 
